@@ -1,0 +1,139 @@
+.home{
+    background-image: url('../img/clement-helardot-95YRwf6CNw8-unsplash.jpg');
+    height: 700px;
+    background-size:cover;
+    background-position:50% 50%;
+    background-attachment:fixed;
+}
+
+.mynav{
+    z-index:1000;
+    opacity:0.89;
+    background-color:#808080;
+}
+
+.brand{
+    font-size: 25px;
+}
+
+/* .nav-item a{
+    color: white;
+} */
+
+.overlay{
+    top:0;
+    left:0;
+    opacity: 0.3;
+}
+
+.home-content{
+    z-index:1;
+}
+
+.home-content h1{
+    font-size:60px;
+    text-shadow:-5px -5px black;
+}
+
+.home-content p{
+    font-size: 30px;
+    text-shadow:-2px -2px black;
+}
+
+/* .video{
+    background-color:#808080;
+} */
+
+.video .overlay{
+    height: 200px;
+    top:0;
+    left:0;
+    /* background-color: rgba(252, 252, 252, 0.089); */
+    opacity:1;
+    z-index: 2;
+
+}
+
+/* .video:hover .overlay{
+     opacity: 1;
+} */
+
+.video:hover i{
+    color: red;
+ }
+
+.video .overlay i{
+    font-size: 50px;
+}
+
+.video .fa-youtube{
+    color: rgb(73, 68, 68);
+}
+
+.video .fa-github-square{
+   color: black;
+}
+
+.circle{
+    width:40px;
+    height:40px;
+}
+
+.line{
+    height: 35px;
+    width: 2px;
+}
+
+.transform{
+    transform: translate(20%,-70%);
+    width:100px;
+    height:100px;
+}
+
+.transform i{
+    font-size: 40px;
+}
+
+.transform-title{
+    transform: translate(0,-200%);
+}
+
+.transform-list{
+    transform: translate(0,-40%);
+}
+
+.text-footer{
+    font-size: 18px;
+    color: rgb(224, 186, 80);
+}
+
+.bg-footer{
+  background-color: rgb(224, 186, 80);
+}
+
+.progress{
+    height: 10px;
+}
+.progress-bar{
+    height: 10px;
+}
+
+.percent{
+    width: 40px;
+    top:130%;
+    /* right: 1%; */
+}
+
+
+.triangle {
+    width: 8px;
+    height: 8px;
+    top: 90%;
+    background-image:
+      linear-gradient(to bottom right, transparent 50%, rgb(255, 193, 7) 0),
+      linear-gradient(to top right, rgb(255, 193, 7) 50%, transparent 0);
+     background-size: 50% 100%;
+     background-repeat: no-repeat;
+    background-position: left, right;
+  }
+
